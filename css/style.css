@@ -1,0 +1,273 @@
+/* THIS SECTION IS FOR  THE NAV */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container span{
+    color: white;
+}
+
+
+header {
+    background: #004275;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    width:90px;
+    height: 70px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+nav ul li a  {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e8491d;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #e8491d;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+#butt{
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-left: 60px;
+    background-color: #52bcec;
+}
+
+#butt:hover{
+    background-color: #93c050;
+    color: white;
+}
+
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.nav-icons span{
+    color: white;
+}
+.nav-icons button{
+    justify-content: inherit;
+    display: inline-block;
+
+}
+
+.nav-icons a {
+    color: #333;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+/* .search-bar input{
+    width: 400px;
+    height: 40px;
+} */
+.search-bar button{
+    height: 37px;
+   margin-right: 20px;
+   margin-bottom: 10px;
+   margin-top: 6px;
+}
+
+.search-bar input {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 400px;
+    height: 26px;
+}
+
+.dropdown{
+    display: inline-block;
+    margin-right: 20px;
+ 
+}
+.dropdown button{
+    display: flex;
+    background-color: rgb(217, 219, 224);
+    color: rgb(8, 8, 8); 
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    width: 70px;
+  
+}
+.dropdown button span{
+    padding-right: 4px;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: rgb(120, 157, 217);
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.887);
+   
+
+    
+}
+.dropdown:hover .content{
+    padding: inherit;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(112, 121, 161);
+}
+/* .dropdown a:hover{
+    background-color: #55b2e1;
+} */
+.content a{
+    padding: inherit;
+}
+
+
+#btn{
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: #55b2e1;
+}
+
+
+/* HERO */
+.hero {
+   background-image:url(/assets/images/1.jpg);
+   background-size: 100% 100%;
+   height: 100vh;
+   width: 100vw;
+}
+.hero-over{
+  padding-left: 20%;
+  padding-top: 20%;
+    color: #f5f1f1;
+    font-size: 20px;
+    font-family: 'Jost';
+    row-gap: 10px;
+}
+.hero-over h4{
+    font-size: 60px;
+}
+.hero-over p ,h4{
+    margin: 3px 0;
+}
+
+/* <!-- SLIDER CODE SECTION --> */
+.property-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+.property-card img {
+    width: 100%;
+    height: auto;
+}
+.property-info {
+    margin-top: 15px;
+}
+.property-info h5 {
+    font-weight: bold;
+}
+.property-info p {
+    color: #777;
+}
+.property-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+}
+.carousel-item {
+    display: flex;
+    justify-content:space-between;
+}
+.carousel-control-prev-bg,
+.carousel-control-next-bg {
+    background-color: #000;
+    border-radius: 20%;
+    padding: 10px;
+}
