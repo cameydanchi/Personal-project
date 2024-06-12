@@ -204,7 +204,7 @@ nav ul li a:hover::after {
 
 /* HERO */
 .hero {
-   background-image:url(./assets/images/1.jpg);
+   background-image:url(../assets/images/1.jpg);
    background-size: 100% 100%;
    height: 100vh;
    width: 100vw;
@@ -363,7 +363,7 @@ nav ul li a:hover::after {
   }
 
   #help{
-        background-image:url(./assets/images/pexels-medhat-ayad-122846-439227.jpg);
+        background-image:url(../assets/images/pexels-medhat-ayad-122846-439227.jpg);
         background-size: 100% 100%;
         height: 80vh;
         width: 100vw;
