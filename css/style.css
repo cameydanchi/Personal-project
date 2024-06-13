@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
 
 body, html {
@@ -218,7 +219,7 @@ nav ul li a:hover::after {
     row-gap: 10px;
 }
 .hero-over h4{
-    font-size: 60px;
+    font-size: 80px;
 }
 .hero-over p ,h4{
     margin: 3px 0;
@@ -230,7 +231,7 @@ nav ul li a:hover::after {
 
 
 .product {
-    height: 100vh;
+    height:90vh;
     width: 100vw;
    
   }
@@ -327,7 +328,7 @@ nav ul li a:hover::after {
   .nxt-btn {
     border: none;
     width: 10vw;
-    height: 80%;
+    height: 60%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -502,3 +503,256 @@ nav ul li a:hover::after {
         text-transform: uppercase;
         color: #333;
     }
+
+
+
+
+
+
+
+      #agents {
+        padding: 50px 20px;
+        text-align: center;
+    
+    }
+    
+    .agents-container h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-family: 'Jost';
+    }
+    
+    .agents-container p {
+        color: #888;
+        margin-bottom: 30px;
+    }
+    
+    .agents-slider {
+        position: relative;
+        max-width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .agents-slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .agent-card {
+        flex: 1 0 25%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    
+    .agent-card img {
+        width: 100%;
+        border-radius:10%;
+        height:70%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .agent-card img:hover{
+        transition:1s;
+        transform: scale(1.1);
+    }
+    
+    .agent-card h3 {
+        font-size: 1.2em;
+        margin: 10px 0 5px;
+    }
+    
+    .agent-card p {
+        color: #888;
+        font-size: 0.9em;
+    }
+    
+    .imgg{
+        overflow: hidden;
+        border-radius: 10%;
+        height: 70vh;
+        margin-bottom: -140px;
+    }
+
+#last{
+    display: flex;
+    justify-content: space-between;
+}
+
+#last-text{
+    padding-left: 70px;
+    background-color: #004275;
+    height: inherit;
+    width: 100%;
+}
+#last-text h2{
+    margin-top: 0px;
+   font-size: 60px;
+   font-family: 'jost';
+   color: #f5f1f1;
+}
+#last-text p{
+    color: #f5f1f1;
+    font-family: 'jost';
+}
+#last-text button{
+    height: 40px;
+    width: 160px;
+  background-color: rgb(82, 188, 236);
+  border-radius: 5px;
+  border: 1px solid rgb(82, 188, 236);
+}
+#last-text button a{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+#some-img img{
+    height: 50vh;
+        width:50vw;
+        margin-bottom: 0px;
+    }
+
+    .subscribe-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    input[type="email"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-size: 16px;
+    }
+    
+    input[type="email"]::placeholder {
+        color: #f5f5f5;
+    }
+    
+    button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CA1FF;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #5782b7;
+    }
+
+
+    .footer {
+        background-color: #1E3A5F;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .footer-top {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #333;
+    }
+    
+    .subscribe p {
+        margin: 0;
+        font-size: 18px;
+    }
+    
+    .subscribe h2 {
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    input[type="email"] {
+        padding: 10px;
+        width: 300px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        font-size: 16px;
+    }
+    
+    button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #f0ad4e;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #ec971f;
+    }
+    
+    #foot{
+       background-color: #f1f1f1;
+
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding-top: 20px;
+       background-color: #f1f1f1;
+       margin-right: 30px;
+       margin-left: 30px;
+       padding-bottom: 50px;
+    }
+.first-f img{
+   height:15vh;
+   width: 10vw;
+   align-items: center;
+}
+.first-f{
+    display: block;
+    justify-content: center;
+}
+.first-f p{
+margin-top: -1px;
+font-family: 'Dosis';
+}
+.first-f i{
+    padding-right: 20px;
+}
+.first-s a{
+    display: block;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'jost';
+    color: black;
+    padding-bottom: 20px;
+    /* margin-left: 40px; */
+}
+
+.first-s a:hover{
+    color: #a12c2c;
+}
+
+
+
