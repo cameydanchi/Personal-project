@@ -276,6 +276,9 @@ nav ul li a:hover::after {
     width: 250px;
     height: 400px;
     margin-right: 40px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 7px;
   }
   
   .product-image {
@@ -309,6 +312,8 @@ nav ul li a:hover::after {
   .product-info {
     width: 100%;
     height: 70px;
+    padding-left: 15px;
+  
 
   }
   
@@ -330,12 +335,12 @@ nav ul li a:hover::after {
   .nxt-btn {
     border: none;
     width: 10vw;
-    height: 60%;
+    height: 69%;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ACD2E4 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #c7d2e6 100%);
     cursor: pointer;
 
   }
@@ -563,11 +568,15 @@ nav ul li a:hover::after {
     .agent-card h3 {
         font-size: 1.2em;
         margin: 10px 0 5px;
+        font-weight: 600;
+        color: black;
     }
     
     .agent-card p {
-        color: #888;
+        color: #282727;
         font-size: 0.9em;
+        margin-top: -10px;
+        /* margin-bottom: -2px; */
     }
     
     .imgg{
